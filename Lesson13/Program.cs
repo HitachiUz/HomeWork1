@@ -3,15 +3,15 @@
 78 -> третьей цифры нет
 32679 -> 6*/
 
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите чило");
 int number = int.Parse(Console.ReadLine());
 
-if (number < 100000 && number>99)
+if(number < 1000 && number > 99)
 {
     Console.WriteLine(number%10);
 }
 else
 {
-    Console.WriteLine(number != 3);
+    Console.WriteLine(number);
     Console.WriteLine("Третьей цифры нет");
 }
